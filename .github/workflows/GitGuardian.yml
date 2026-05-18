@@ -23,4 +23,5 @@ jobs:
         uses: GitGuardian/ggshield/actions/secret@v1.37.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          GITGUARDIAN_API_KEY: gg_pat_rZ4rcFa61jK4bM1an8x7NaHIU5BCJlcHSrWCVsdSSn03ffA
+          GITGUARDIAN_API_KEY1: gg_pat_rZ4rcFa61jK4bM1an8x7NaHIU5BCJlcHSrWCVsdSSn03ffA
+          GITGUARDIAN_API_KEY: ${{secrets.GITGUARDIAN_API_KEY1}}
