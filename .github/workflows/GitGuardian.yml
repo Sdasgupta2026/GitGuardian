@@ -1,4 +1,4 @@
-name: Git Guardian secret scan
+name: Git Guardian secret scan 
 on: 
   push:
     branches: [master, main]
@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Run GitGuardian Scan
+      - name: Run GitGuardian Scan PASSWORD!!2026
         uses: GitGuardian/ggshield/actions/secret@v1.37.0
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
